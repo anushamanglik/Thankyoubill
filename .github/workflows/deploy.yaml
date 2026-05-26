@@ -17,14 +17,16 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      - name: Generate package-lock.json
+        run: npm i --package-lock-only
+        
       - name: Setup Node
         uses: actions/setup-node@v3
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: Generate package-lock.json
-        run: npm i --package-lock-only
+
 
       - name: Build project
         run: npm run build
