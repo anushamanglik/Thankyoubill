@@ -167,5 +167,26 @@ export const cocktails: Cocktail[] = [
       "Enjoy with a large ice cube"
     ],
     studentNote: "Thank you for everything Bill! It was especially wonderful to be in section with you last semester. I've always enjoyed learning from you & hope we can continue to stay in touch. This is one of my favorite cocktails which blends chemistry & the best drink known to this world, masala chai. Hope you're able to experiment and enjoy it!"
+  },
+  {
+    id: 8,
+    name: "Haku Yuzu Cosmopolitan",
+    studentName: "Sravani Korupolu",
+    image: "https://images.unsplash.com/photo-1589378938275-947b7adf8665?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Ntb3BvbGl0YW4lMjBjb2NrdGFpbCUyMHBpbmslMjBtYXJ0aW5pJTIwZ2xhc3N8ZW58MXx8fHwxNzc5OTI2NzMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    ingredients: [
+      "1 1/2 parts Haku Yuzu Flavored Vodka",
+      "1 part Cranberry Juice",
+      "1/2 part Lemon Juice",
+      "1/2 part Triple sec",
+      "1/4 part Simple Syrup 1:1",
+      "Lemon twist for garnish"
+    ],
+    instructions: [
+      "Add ingredients to shaker",
+      "Add ice and shake",
+      "Strain into a chilled Martini glass or coupe",
+      "Garnish with a lemon twist"
+    ],
+    studentNote: "Pink and green to match the northern lights I made us leave class early to catch - so grateful to have experienced that together!"
   }
 ];
